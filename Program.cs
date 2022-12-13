@@ -25,3 +25,10 @@ void NewArray(string[] array)
     Console.Write("]");
 }
 
+Console.WriteLine("Enter the initial size of the array elements");
+int Arr = Convert.ToInt32(Console.ReadLine());
+string[] array = new string[Arr];
+InputArray(array);
+Console.WriteLine();
+Console.Write("The resulting array is - ");
+NewArray(array);
